@@ -14,4 +14,4 @@
 	risu- = stash pop
 	syutage = commit --fixup  
 	urudo = rebase --autosquash -i origin/master
-	furidasi = reset --soft HEAD^z
+	furidasi = reset --soft HEAD^
