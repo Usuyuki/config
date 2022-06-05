@@ -13,5 +13,6 @@
 	risu = stash -u
 	risu- = stash pop
 	syutage = commit --fixup  
-	urudo = rebase --autosquash -i origin/master
+	sukurudo = rebase --autosquash -i origin/master
+	sukurudo_ = rebase --autosquash -i origin/main
 	furidasi = reset --soft HEAD^
