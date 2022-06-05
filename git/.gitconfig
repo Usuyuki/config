@@ -12,6 +12,6 @@
 	delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
 	risu = stash -u
 	risu- = stash pop
-	syutage = commit --fixup
+	urudo = commit --fixup
 	sukurudo = rebase --autosquash -i origin/main
 	furidasi = reset --soft HEAD
