@@ -1,0 +1,17 @@
+[alias]
+	f = fetch
+	s = status
+	l = log --graph
+	d = diff
+	ds = diff --staged
+	c = checkout
+	c- = !git checkout "$(git branch | peco | cut -d'*' -f2 | xargs)"
+	b = branch
+	pr = pull --rebase
+	psuh = push
+	delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
+	risu = stash -u
+	risu- = stash pop
+    syutage = commit --fixup  
+	urudo = rebase --autosquash -i origin/master
+	furidasi = reset --soft HEAD^z
