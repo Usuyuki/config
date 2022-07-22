@@ -1,5 +1,6 @@
 [alias]
 	f = fetch
+	po = push origin HEAD
 	s = status
 	l = log --graph
 	d = diff
